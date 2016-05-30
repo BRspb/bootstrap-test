@@ -79,18 +79,39 @@ body {
 .red{
 	background-color: red;
 }
+.red p:hover{
+	background-color: #e92323;
+	transition: all .5s ease;
+	border-radius: 50%;
+}
 .blue{
 	background-color: blue;
 	color: #fff;
+}
+.blue p:hover{
+	background-color: #2d2df8;
+	transition: all .5s ease;
+	border-radius: 50%;
 }
 .green{
 	background-color: green;
 	color: #fff;
 }
+.green p:hover{
+	background-color: #0D8D0D;
+	transition: all .5s ease;
+	border-radius: 50%;
+}
 .gray{
 	background-color: gray;
+}
+.gray p:hover{
+	background-color: #8D8D8D;
+	transition: all .5s ease;
+	border-radius: 50%;
 }
 p{
 	margin: 15%;
 	text-align: center;
+	font-size: 30px;
 }
