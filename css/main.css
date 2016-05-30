@@ -77,38 +77,77 @@ body {
 	height: 200px;
 }
 .red{
-	background-color: red;
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 160%;	
+	background-position: 78% 73%;
+}
+.red:hover{
+	background-repeat: no-repeat;
+	background-size: 225%;
+	background-position: 66% 33%;
+	transition: all .5s ease;
 }
 .red p:hover{
 	background-color: #e92323;
-	transition: all .5s ease;
+	transition: all .35s ease;
 	border-radius: 50%;
+	opacity: 0.7;
 }
 .blue{
-	background-color: blue;
-	color: #fff;
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: 37% 9%;
+}
+.blue:hover{
+	background-repeat: no-repeat;
+	background-size: 140%;
+	background-position: 37% 9%;
+	transition: all .5s ease;
 }
 .blue p:hover{
 	background-color: #2d2df8;
-	transition: all .5s ease;
+	transition: all .35s ease;
 	border-radius: 50%;
+	opacity: 0.7;
 }
 .green{
-	background-color: green;
-	color: #fff;
+	background-image: url(../img/3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: 51% 0%;
+}
+.green:hover{
+	background-repeat: no-repeat;
+	background-size: 140%;
+	background-position: 51% 0%;
+	transition: all .5s ease;
 }
 .green p:hover{
 	background-color: #0D8D0D;
-	transition: all .5s ease;
+	transition: all .35s ease;
 	border-radius: 50%;
+	opacity: 0.7;
 }
 .gray{
-	background-color: gray;
+	background-color: #09507C;
+	background-image: url(../img/4.jpg);
+	background-repeat: no-repeat;
+	background-size: 85%;	
+	background-position: 53% 43%;
 }
 .gray p:hover{
 	background-color: #8D8D8D;
-	transition: all .5s ease;
+	transition: all .35s ease;
 	border-radius: 50%;
+	opacity: 0.7;
+}
+.gray:hover{
+	background-repeat: no-repeat;
+	background-size: 125%;
+	background-position: 56% 25%;
+	transition: all .5s ease;
 }
 p{
 	margin: 15%;
